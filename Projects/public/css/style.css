@@ -1,0 +1,109 @@
+/* common css  */
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+/* site brand  */
+a.navbar-brand>span {
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-family: emoji;
+    margin-top: -5px;
+    font-weight: 100;
+    text-align: center;
+    color: #0000008f;
+}
+
+a.navbar-brand {
+    display: grid;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: initial;
+    font-size: 25px;
+}
+
+ul.navbar-nav>li.nav-item {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+/* main content  */
+.aboutServices>h4 {
+    font-family: inherit;
+    font-size: 18px;
+    color: #a8a693;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+/* My Skills */
+.progress {
+    height: 10px;
+    border-radius: 20px;
+}
+
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 10px 0 0;
+}
+
+span {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #888888;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    text-align: left;
+    border-radius: 20px;
+    transition-duration: 5s;
+}
+
+.processBar > p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.processBar > p > span {
+    margin: 5px 15px;
+}
+
+/* image add  */
+.serviceVideo > .customLand {
+    position: relative;
+    top: -7em;
+    font-family: sans-serif;
+    height: 85px;
+    margin: 0 25px;
+    background: linear-gradient(2deg, #eccb3ad9, transparent);
+}
