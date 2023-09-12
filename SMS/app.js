@@ -8,8 +8,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const vonage = new Vonage({
-  apiKey: "a08f9a61",
-  apiSecret: "sAxYLyGwmWt4NpPC"
+  apiKey: "apiKey",
+  apiSecret: "apiSecret"
 })
 
 // load server routes
