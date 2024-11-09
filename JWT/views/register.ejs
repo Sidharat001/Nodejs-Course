@@ -1,0 +1,22 @@
+<%- include('../common/header'); -%>
+
+    <h1><%= title ? title : null %> Page</h1>
+    <form action="/sign-in" method="post">
+        <input type="text" name="name" placeholder="eg:- John" required>
+        <input type="text" name="last" placeholder="eg:- Doe" required>
+        <input type="password" name="password" placeholder="eg :-XXXXXXXXXX">
+        <input type="radio" name="gander" id="gander" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gander" id="gander" value="female">
+        <label for="female">female</label>
+        <input type="radio" name="gander" id="gander" value="other">
+        <label for="other">other</label>
+        <button type="submit">Register</button>
+    </form>
+    <script>
+        const successmsg = document.getElementById("successmsg");
+        setTimeout(() => {
+            successmsg.style.display = "none";
+        }, 2000)
+    </script>
+<%- include('../common/footer'); -%>
